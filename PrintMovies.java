@@ -1,3 +1,7 @@
+/* Change your program L06-Q5 to store any number of favourite movies.
+Being by asking the user how many movies they want to type. Then ask the user
+to type each movie title. After reading all favourite movies, print all of them. */
+
 import java.util.Scanner; // importing scanner
 
 public class PrintMovies {
