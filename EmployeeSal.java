@@ -17,8 +17,24 @@ public class EmployeeSal {
 
         Scanner userInput = new Scanner(System.in);
 
+
+        int employeeNum;
+
+
         System.out.println("How many employees you want to process");
-        int employeeNum = userInput.nextInt();
+        employeeNum = userInput.nextInt();
+
+        String[] empName = new String[employeeNum];
+        int[] empSal = new int[employeeNum];
+
+        for(int i = 0; i <employeeNum + 1; i++){
+            System.out.println("Enter employee" + (i+1) + " name: ");
+            empName[i] = userInput.nextLine();
+
+            System.out.println("Enter employee" + (i+1) + " salary: ");
+            empSal[i] = userInput.nextInt();
+
+        }
 
     }
     
