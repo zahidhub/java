@@ -33,8 +33,16 @@ public class EmployeeSal {
 
             System.out.println("Enter employee" + (i+1) + " salary: ");
             empSal[i] = userInput.nextInt();
-
         }
+
+        int totalSal = 0;
+        for(int salary : empSal){
+            totalSal = totalSal + salary;
+        }
+
+        int averageSal = totalSal/employeeNum;
+
+        System.err.println(averageSal);
 
     }
     
