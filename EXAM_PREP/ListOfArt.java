@@ -14,7 +14,6 @@ public class ListOfArt {
         String fName3;
         String lName3;
 
-
         System.out.println("Enter your 1st artist First Name: ");
         fName1 = userInput.nextLine();
         System.out.println("Enter your 1st artist Last Name: ");
@@ -30,8 +29,9 @@ public class ListOfArt {
         System.out.println("Enter your 3rd artist Last Name: ");
         lName3 = userInput.nextLine();
 
-        System.err.printf("%0.8S, %s %n", lName1, fName1);
-
+        System.err.printf("%8.8S, %s %n", lName1, fName1);
+        System.err.printf("%8.8S, %s %n", lName2, fName2);
+        System.err.printf("%8.8S, %s %n", lName3, fName3);
 
         userInput.close();
     }
