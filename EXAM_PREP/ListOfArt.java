@@ -1,3 +1,8 @@
+/*Print the First and Last name of your chosen artists using the example below.
+• Last name must be completely uppercase
+• Padded left or cut after 8.
+• Last name must fit 8 characters */
+
 package EXAM_PREP;
 
 import java.util.Scanner; // importing the scanner
